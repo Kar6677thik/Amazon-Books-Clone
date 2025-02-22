@@ -11,6 +11,19 @@
     gap: 20px;
 }
 
+.flex-custom-left {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+}
+
+.flex-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .colored-icon {
     filter: invert(100%) sepia(100%) saturate(500%) hue-rotate(200deg);
 }
@@ -27,4 +40,9 @@
 .remove-decor a {
     text-decoration: none;
     color: #333;
+}
+
+.smallbold {
+    font-size: small;
+    font-weight: 1000;
 }

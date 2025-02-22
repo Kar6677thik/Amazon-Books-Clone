@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Amazon Ember', Arial, Helvetica, sans-serif;
 }
 
 .logo img {
@@ -10,7 +11,7 @@
 }
 
 .primarynav {
-    padding-inline : 20px;
+    padding-inline: 20px;
     background-color: #131921;
     color: white;
     padding-block-start: 3px;
@@ -98,10 +99,78 @@
 /* ------------ */
 
 .tertiarynav {
-    border-bottom: 1px solid rgba(0,0,0,.1);
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
     height: 33px;
     font-size: 12px;
     line-height: 33px;
     font-family: Arial, Helvetica, sans-serif;
     padding-inline-start: 30px;
+}
+
+/* --------- */
+
+.leftmain {
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid lightgray;
+    width: 17%;
+    height: auto;
+    margin-inline-start: 10px;
+    margin-block-start: 10px;
+}
+
+.leftmain ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.leftmain ul li {
+    min-height: 20px;
+    width: auto;
+}
+
+.list-in-left {
+    margin-left: 20px;
+    font-size: 0.85rem;
+    line-height: 20px;
+}
+
+
+/* .rightmain {
+    border: 2px solid black;
+    display: flex;
+    width: 83%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+.rightmain img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+} */
+
+.rightmain {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 83%;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.rightmain img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover;
+    align-self: flex-start;
+}
+
+.smallbanners img {
+    height: 106px;
+    width: 106px;
 }
